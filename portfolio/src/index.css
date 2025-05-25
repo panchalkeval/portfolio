@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 215 30% 7%;
+    --foreground: 0 0% 98%;
+    --card: 215 30% 7%;
+    --card-foreground: 0 0% 98%;
+    --popover: 215 30% 7%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 197 100% 47%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 215 25% 15%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 215 25% 15%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 197 100% 37%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 215 25% 15%;
+    --input: 215 25% 15%;
+    --ring: 197 100% 47%;
+    --radius: 0.75rem;
+  }
+  
+  * {
+    @apply border-border selection:bg-accent/20 selection:text-foreground;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased overflow-x-hidden;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
+  }
+  
+  .glass-panel {
+    @apply backdrop-blur-lg bg-white/5 border border-white/10 rounded-lg shadow-xl;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
+  }
+
+  .reveal-animation {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s ease;
+  }
+
+  .reveal-animation.revealed {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .bounce-animation {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .section-container {
+    @apply px-4 md:px-8 lg:px-16 py-12 md:py-16 max-w-7xl mx-auto;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .text-glow {
+    text-shadow: 0 0 5px currentColor;
+  }
+  
+  .bg-grid {
+    background-image: 
+      linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+}
