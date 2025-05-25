@@ -2,7 +2,8 @@
 
     ## Project Info
 
-URL: https://yourdomain.com/projects/eba77f5a-e64b-4726-9da7-d6652a642a35
+URL: https://panchalkeval.github.io/portfolio/
+
 Developer: Keval Panchal
 GitHub: panchalkeval
 
