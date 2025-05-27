@@ -119,10 +119,14 @@ const About = () => {
                     <p className="text-sm text-foreground/70">Location</p>
                     <p className="font-medium">Gujarat, India</p>
                   </div>
-                  <div>
-                    <p className="text-sm text-foreground/70">Email</p>
-                    <p className="font-medium">kevalpanchal0602@gmail.com</p>
-                  </div>
+
+                  <div className="w-full">
+                  <p className="text-sm text-foreground/70">Email</p>
+                  <p className="font-medium break-words md:whitespace-nowrap">
+                    kevalpanchal0602@gmail.com
+                  </p>
+                </div>
+                
                 </div>
               </div>
             </div>

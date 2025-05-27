@@ -79,25 +79,19 @@ const Hero = () => {
       </div>
       
       <motion.div 
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-foreground/50"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1, y: [0, 10, 0] }}
-        transition={{ 
-          opacity: { delay: 1.5, duration: 0.5 },
-          y: { repeat: Infinity, duration: 2, ease: "easeInOut" }
-        }}
-      >
-        <div className="text-sm">Scroll Down</div>
-        <svg 
-          className="w-6 h-6 mx-auto mt-1" 
-          fill="none" 
-          stroke="currentColor" 
-          viewBox="0 0 24 24" 
-          xmlns="http://www.w3.org/2000/svg"
+          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-foreground/50"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1, y: [0, 10, 0] }}
+          transition={{ 
+            opacity: { delay: 1.5, duration: 0.5 },
+            y: { repeat: Infinity, duration: 2, ease: "easeInOut" }
+          }}
         >
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-        </svg>
-      </motion.div>
+          <div className="w-6 h-10 border-2 rounded-full mx-auto flex justify-center">
+            <div className="w-1 h-2 bg-foreground mt-1 rounded animate-bounce"></div>                       
+          </div>
+        </motion.div>
+        
     </section>
   );
 };

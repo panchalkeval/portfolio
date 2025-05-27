@@ -10,7 +10,7 @@ const projects = [
     id: 1,
     title: "Hindu Scriptures",
     description: "Hindu Scriptures is a comprehensive platform for exploring and learning about Hindu texts and scriptures.",    
-    image: "public/images/projects/hindu scriptures.png",
+    image: "/images/projects/hindu scriptures.png",
     tags: ["Html", "CSS", "Java Script", "Express"],
     demoUrl: "https://hinduscriptures.onrender.com/",
     codeUrl: "https://github.com/panchalkeval/Search-Engine"
@@ -19,7 +19,7 @@ const projects = [
     id: 2,
     title: "Fit Life",
     description: "Fit Life is a fitness and health application that helps users track their workouts and nutrition.",
-    image: "public/images/projects/fit-life.png",
+    image: "/images/projects/fit-life.png",
     tags: ["React", "CSS", "Node.js","API Integration", "MongoDB"],
     demoUrl: "https://fitlife-khaki.vercel.app",
     codeUrl: "https://github.com/panchalkeval/FITLIFE.git"
@@ -28,16 +28,16 @@ const projects = [
     id: 3,
     title: "Personal Portfolio",
     description: "Modern portfolio website built with React and Framer Motion for smooth animations.",
-    image: "public/images/projects/portfolio.png",
+    image: "/images/projects/portfolio.png",
     tags: ["React", "JavaScript", "CSS", "Framer Motion"],
-    demoUrl: "https://panchalkeval.github.io/portfolio/",
+    demoUrl: "https://panchalkeval.netlify.app/",
     codeUrl: "https://github.com/panchalkeval/portfolio"
   },
   {
     id: 4,
     title: "Music App",
     description: "A weather application that displays current weather conditions and forecasts for any location.",
-    image: "public/images/projects/music.jpg",
+    image: "/images/projects/music.jpg",
     tags: ["Html", "CSS", "JavaScript"],
     demoUrl: "https://github.com/panchalkeval/music-app",
     codeUrl: "https://github.com/panchalkeval/music-app"
