@@ -5,7 +5,9 @@
 URL: https://panchalkeval.netlify.app/
 
 Developer: Keval Panchal
+
 GitHub: panchalkeval
+
 
 *Technologies Used*
 This project is built with:
