@@ -51,13 +51,12 @@ const About = () => {
             
             <p className="text-lg text-foreground/80 mb-4">
               I am Keval Panchal, a passionate full-stack developer with a strong focus on front-end development. 
-              I excel in creating responsive web applications that combine appealing designs with technical excellence.
+              I specialize in building responsive web apps that blend great design with strong technical performance.
             </p>
             
             <p className="text-lg text-foreground/80 mb-6">
-              I've been coding since 2018 and have completed my Bachelor of Engineering in Computer Engineering. 
-              I'm constantly exploring new technologies and keeping up with industry trends to deliver modern, 
-              cutting-edge solutions.
+              I've been coding since 2019 and recently completed my Bachelor of Engineering in Computer Engineering. 
+              I actively learn new technologies and stay updated with industry trends to build modern and effective solutions.
             </p>
             
             <div className="grid grid-cols-2 gap-4 mb-6">

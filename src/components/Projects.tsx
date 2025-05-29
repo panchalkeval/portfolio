@@ -36,7 +36,7 @@ const projects = [
   {
     id: 4,
     title: "Music App",
-    description: "A weather application that displays current weather conditions and forecasts for any location.",
+    description: "A simple and easy-to-use music app to listen to songs, make playlists, and get song suggestions you’ll love.",
     image: "/images/projects/music.jpg",
     tags: ["Html", "CSS", "JavaScript"],
     demoUrl: "https://github.com/panchalkeval/music-app",
